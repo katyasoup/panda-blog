@@ -9,7 +9,7 @@ export default ({ data }) => {
         <div className="wrapper">
         <Helmet>
             <meta charSet="utf-8" />
-            <title>My Title</title>
+            <title>Pandas Eating Lots</title>
             <link rel="canonical" href="http://mysite.com/example" />
         </Helmet>    
         <Layout>
