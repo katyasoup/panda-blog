@@ -1,15 +1,15 @@
 import React from "react"
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
 export default ({ data }) => (
   <div className="wrapper">
-    <Helmet>
+    {/* <Helmet>
       <meta charSet="utf-8" />
-      <title>My Title</title>
+      <title>Pandas Eating Lots</title>
       <link rel="canonical" href="http://mysite.com/example" />
-    </Helmet>
+    </Helmet> */}
     <Layout>
       <h1>About {data.site.siteMetadata.title}</h1>
       <p>

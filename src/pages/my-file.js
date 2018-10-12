@@ -1,17 +1,17 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import Layout from "../components/layout"
 
 export default ({ data }) => {
     console.log(data)
     return (
         <div className="wrapper">
-        <Helmet>
+        {/* <Helmet>
             <meta charSet="utf-8" />
             <title>Pandas Eating Lots</title>
             <link rel="canonical" href="http://mysite.com/example" />
-        </Helmet>    
+        </Helmet>     */}
         <Layout>
             <div>
             <h1>My Site's Files</h1>

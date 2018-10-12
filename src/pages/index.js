@@ -1,5 +1,5 @@
 import React from "react"
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 import { Link, graphql } from "gatsby"
 import { css } from "react-emotion"
 import { rhythm } from "../utils/typography"
@@ -9,11 +9,11 @@ export default ({ data }) => {
     console.log(data)
     return (
         <div className="wrapper">
-            <Helmet>
+            {/* <Helmet>
                 <meta charSet="utf-8" />
-                <title>My Title</title>
+                <title>Pandas Eating Lots</title>
                 <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
+            </Helmet> */}
             <Layout>
             <div>
                 <h1
